@@ -13,10 +13,10 @@ module.exports = {
         res.status(200).send(teams)
     },
     createTeam:(req,res)=>{
-        const {teamName, teamPoints, imageURL} = req.body
+        const {teamName, teamScore, imageURL} = req.body
         let newTeam = {
             teamName,
-            teamPoints : Number(teamPoints) ,
+            teamScore : Number(teamScore) ,
             imageURL,
             id: globalID
         }
@@ -53,7 +53,7 @@ module.exports = {
  },
 
  getInsult: (req, res) => {
-    const insults = ["Gee, you smell!", "I don't like your shirt!", "Your Javascript skills are alright i guess."];
+    const insults = ["you will find money soon!", "You will meet someone important today.", "Don't be too focused on the future.",'You will have success in your career.',"Eat at panda express next wednesday."];
   
     // choose random compliment
     let randomIndex = Math.floor(Math.random() * insults.length);

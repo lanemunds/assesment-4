@@ -1,21 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+
   
   body {
-    background-color: snow;
+    background-color: whitesmoke;
   }
   
-  header {
-    height: 80px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: darkslategray;
-  }
-  
+
   main {
     display: flex; 
     justify-content: center;
@@ -34,10 +23,10 @@
   }
   
   button {
-    background-color: #232323;
+    background-color: blue;
     width: 75px;
-    height: 25px;
-    color: turquoise;
+    height: 50px;
+    color: orange;
     border: none;
     margin: 5px;
   }
@@ -51,9 +40,7 @@
     background-color: snow;
   }
   
-  #price-container {
-    width: 85%;
-  }
+  
   
   #radio-container {
     width: 100%;
@@ -62,7 +49,7 @@
     align-items: center;
   }
   
-  #houses-container {
+  #teamsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -76,8 +63,8 @@
     border-top-right-radius: 12px;
   }
   
-  .house-card {
-    background-color: turquoise;
+  .team-card {
+    background-color: lightblue;
     width: 300px;
     margin: 20px; 
     display: flex;
@@ -86,17 +73,9 @@
     border-radius: 12px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+   
   }
-  
-  .house-address {
-    font-size: 18px;
-    margin: 5px 0;
-  }
-  
-  .house-price {
-    font-size: 15px;
-    margin: 5px 0;
-  }
+ 
   
   .btns-container {
     width: 100%; 
