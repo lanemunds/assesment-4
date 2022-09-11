@@ -61,11 +61,11 @@ const updateTeam = (id, type) => axios.put(`${baseURL}/${id}`, {type}).then(team
         const teamCard = document.createElement('div')
         teamCard.classList.add('team-card')
 
-        teamCard.innerHTML = `<img alt = 'team cover image' src = ${team.imageURL} class = 'house-cover-image'/>
+        teamCard.innerHTML = `<img alt = 'team cover image' src = ${team.imageURL} class = 'teamLogo'/>
         <p class="teamName">${team.teamName}</p>
         <div class = 'btns-container'>
             <button onclick = "updateTeam(${team.id}, 'minus')">-</button>
-            <p class="team-pristyles.ce">${team.teamScore}</p>
+            <p class="teamScore">${team.teamScore}</p>
             <button onclick = "updateTeam(${team.id}, 'plus')">+</button>
         </div>
         <button onclick= "deleteTeam(${team.id})">delete</button>
