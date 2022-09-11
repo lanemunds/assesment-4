@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "teamName": "Lanes Team",
+      "teamScore": 125,
+      "imageURL" : "https://cdn.mos.cms.futurecdn.net/8227s5kMEx84YEHWLbxCb4-1920-80.jpg.webp"
+    },
+    {
+      "id": 2,
+      "teamName": "team 2",
+      "teamScore": 100,
+      "imageURL" : "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
+    },
+    {
+      "id": 3,
+      "teamName": "big team",
+      "teamScore": 200,
+      "imageURL" : "https://cdn11.bigcommerce.com/s-w6fxwapwzi/images/stencil/1280w/products/3481/6825/Green-Bay-Packers-Logo-Flag__85836.1585148763.jpg?c=1"
+    }
+  ]
