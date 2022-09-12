@@ -7,10 +7,11 @@ app.use(cors());
 
 app.use(express.json());
 
-const { getCompliment, getInsult } = require('./controller')
+const { getCompliment, getInsult, getNameGen } = require('./controller')
 
 app.get("/api/compliment", getCompliment);
 app.get("/api/insult", getInsult);
+app.get("/api/getNameGen", getNameGen);
 
 
 

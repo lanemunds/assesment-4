@@ -24,6 +24,18 @@ const getInsult = () => {
 
 insultBtn.addEventListener('click', getInsult)
 
+
+const getNameGen = () => {
+    axios.get("http://localhost:4000/api/getNameGen/")
+        .then(res => {
+            const data = res.data;
+            alert(data);
+    });
+};
+
+
+nameGenButton.addEventListener('click', getNameGen)
+
 const baseURL = 'http://localhost:4000/api/teams'
 const form = document.querySelector('form')
 

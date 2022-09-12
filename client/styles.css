@@ -31,6 +31,10 @@
     margin: 5px;
     border-radius: 100%;
   }
+  #nameGenButton {
+    height: 100px;
+
+  }
   
   input[type='text'] {
     width: 85%;

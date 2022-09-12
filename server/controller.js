@@ -60,5 +60,14 @@ module.exports = {
     let randomInsult = insults[randomIndex];
   
     res.status(200).send(randomInsult);
+ },
+ getNameGen: (req, res) => {
+    const names = ["4th and Long", "Goats and Boats", "Touchdowns and Victories",'For the Hate of the Game',"Champ Time"];
+  
+    // choose random compliment
+    let randomIndex = Math.floor(Math.random() * names.length);
+    let randomName = names[randomIndex];
+  
+    res.status(200).send(randomName);
  }
 }
