@@ -29,6 +29,7 @@
     color: orange;
     border: none;
     margin: 5px;
+    border-radius: 100%;
   }
   
   input[type='text'] {
